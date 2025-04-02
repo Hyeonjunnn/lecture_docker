@@ -12,4 +12,5 @@ ENV TZ=Asia/Seoul
 EXPOSE 8080
 # 작업 디렉터리를 /root로 변경
 WORKDIR /root
+# 컨테이너 실행 시 university-0.0.1-SNAPSHOT.jar 파일 실행
 CMD [ "java", "-jar", "university-0.0.1-SNAPSHOT.jar" ]
